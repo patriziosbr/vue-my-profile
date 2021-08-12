@@ -9,7 +9,7 @@
       </div> -->
       <div class="col-12 col-md-6 intro-box" >
         <h1 class="mt-5 mb-3">About Me</h1>
-        <p class="about-txt">I do have really good experience in <strong>web-sites, web-apps and mobile-app</strong> following the projects trough his phases: wireframe, mockup, web prototype and scripting. I develop products in <strong>HTML5, CSS3, VueJS</strong> and <strong>BOOTSTRAP 4+</strong>, being really focused on obtain a grate user experience organizing the whole project between <strong>front-end and database.</strong></p>
+        <p class="mb-5">I do have really good experience in <strong>web-sites, web-apps and mobile-app</strong> following the projects trough his phases: wireframe, mockup, web prototype and scripting. I develop products in <strong>HTML5, CSS3, VueJS</strong> and <strong>BOOTSTRAP 4+</strong>, being really focused on obtain a grate user experience organizing the whole project between <strong>front-end and database.</strong></p>
         <div>
           <a class="myBtn" href="files/SBROZZI-PATRIZIO-cv_compressed.pdf" download>
             <p>Download resume</p>
@@ -87,7 +87,7 @@ export default {
     }
     @media (min-width: 1200px) {
       .myrow{
-        align-items: flex-end;
+        align-items: center;
       }
     }
   }

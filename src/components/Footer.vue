@@ -25,6 +25,7 @@ export default {
     footer {
         height: 200px;
         background-color:  #f4f5f9;
+        padding-bottom: 40px;
          .circle-photo {
               min-height: 85px;
               min-width: 85px;

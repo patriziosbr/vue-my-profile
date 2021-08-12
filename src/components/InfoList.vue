@@ -40,8 +40,6 @@ export default {
 
     section {
         display: flex;
-        
-        align-items: flex-end;
         ul {
             list-style: none;
             margin: 0;

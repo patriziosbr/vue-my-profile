@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="mt-5 mb-0">Tecnologies</h2>
+                    <h2 class="mt-5 mb-0">Technologies</h2>
                 </div>
             </div>
         </div>
@@ -143,11 +143,11 @@ export default {
             .myCarousel-item {
                 display: flex;
                 justify-content: center;
-                width: calc(100%/3 - 4px);
+                width: calc(100% / 3 - 4px);
                 align-items: center;
-                border: 1px solid rgba(36, 36, 36, 0.2);
+                // border: 1px solid rgba(36, 36, 36, 0.1);
                 border-radius: 5px;
-                // margin-right: 16px;
+                
                 &.myCarousel-item:active {
                     background-color: darken($color: #f1f4f9, $amount: 1);
                 }
@@ -163,7 +163,7 @@ export default {
         .myCarousel-item {
             width: calc(100%/3 - 16px) !important;
                 img {
-                    width: 80px !important;
+                    width: 60px !important;
                 }
         }
     

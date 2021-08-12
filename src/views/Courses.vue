@@ -1,6 +1,6 @@
 <template>
-  <section>
-      <h1>courses</h1>
+  <section class="test">
+      
       <CourseComp />
   </section>
 </template>
@@ -18,5 +18,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    @media (min-width: 576px) {
+    .test {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      margin-left: 90px;
+      overflow: hidden;
+    }
+  }
 </style>

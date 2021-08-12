@@ -3,7 +3,7 @@
         
             <section class="container ">
                 <div class="row">
-                    <div class="mt-1 mb-3"><h2>Languages</h2></div>
+                    <div class="mt-5 mb-3"><h2>Languages</h2></div>
                 </div>
                 <div class="row testInLine">
                     <div class="col-md-6">
