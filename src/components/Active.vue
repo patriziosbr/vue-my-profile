@@ -1,0 +1,60 @@
+<template>
+
+    <div>
+        <div class="d-flex justify-content-between">
+            <p class="m-0">Passive</p>
+            <p class="m-0">Active</p>
+        </div>
+        <div class="Loading"></div>
+     </div>
+
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+p {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.Loading {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+  background: #f1f1f1;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Loading:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  animation: load 4s infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+    background: #2b35ca;
+  }
+  100% {
+    width: 80%;
+    background: #88c9ff;
+  }
+  
+}
+
+</style>
