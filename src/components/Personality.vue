@@ -1,5 +1,5 @@
 <template>
-  <div class="container m-debug">
+  <div class="container mb-5">
     <div class="row">
       <div class="col-12">
         <h2 class="my-3">Personality</h2>

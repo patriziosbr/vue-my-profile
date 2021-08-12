@@ -7,6 +7,7 @@
     <Tecnologies  />
     <CardDue />
     <Personality />
+    <Footer/>
 
   </section>
 </template>
@@ -19,6 +20,7 @@ import Language from '../components/Language.vue'
 import Tecnologies from './Tecnologies.vue'
 import CardDue from './CardDue.vue'
 import Personality from './Personality.vue'
+import Footer from './Footer.vue'
 
 
 
@@ -31,7 +33,8 @@ export default {
       Language,
       Tecnologies,
       CardDue,
-      Personality
+      Personality,
+      Footer
 
 
     }

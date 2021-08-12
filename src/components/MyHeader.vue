@@ -7,21 +7,23 @@
             <div class="circle-cont">
 
               <div class="title-photo">
-                <div class="circle-photo">
-                  <img class="img-fluid" src="../assets/myavatar.png" alt="avatar">
-                </div>
-                <div class="myName ms-4">
-                  <h4 class="m-0 ">Patrizio Sbrozzi</h4>
-                  <div>
-                    <small class="m-0">Full Stack Developer Trainee |</small>
-                    <small class="m-0"> Boolean Careers</small>
+                <div class="d-flex">
+                  <div class="circle-photo">
+                    <img class="img-fluid" src="../assets/myavatar.png" alt="avatar">
                   </div>
-                  <div class="location d-flex align-items-center mt-1">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p class="m-0 ms-1"><strong>Rome, IT</strong></p>
-                  </div>
-                </div>
 
+                  <div class="myName ms-4">
+                    <h4 class="m-0 ">Patrizio Sbrozzi</h4>
+                    <div>
+                      <small class="m-0">Full Stack Developer Trainee |</small>
+                      <small class="m-0"> Boolean Careers</small>
+                    </div>
+                    <div class="location d-flex align-items-center mt-1">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p class="m-0 ms-1"><strong>Rome, IT</strong></p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -63,6 +65,9 @@ export default {
             left: 0;
             display: flex;
             align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            
             .circle-photo {
               min-height: 85px;
               min-width: 85px;
@@ -70,13 +75,17 @@ export default {
               max-width: 100px;
               border-radius: 50%;
               background-color: indianred;
-              box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.3);
+              box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
               overflow: hidden;
             }
-              .myName {
-                margin-left: 8px;
-              }
+            .myName {
+              margin-left: 8px;
+            }
           }
         }
+    }
+
+    @media (min-width: 576px) {
+     
     }
 </style>
